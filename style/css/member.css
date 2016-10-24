@@ -1,0 +1,177 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    font-family: "Microsoft YaHei", "微软雅黑", "黑体";
+}
+.mr10{
+    margin-right: 8px;
+}
+.my_alert{
+    padding: 5px 15px;
+    margin-bottom: 0px;
+}
+.navbar{
+    background: #00aac6;
+    border-color: #00aac6;
+}
+.navbar .navbar-nav li a{
+    color: #fff;!important;
+}
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.navbar-inverse .navbar-brand{
+    color: #fff;
+    font-weight: bold;
+}
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+    display: none;
+}
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color: rgb(42,44,50);
+        border-right: 1px solid #eee;
+    }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar > li{
+    border-bottom: 1px solid #38393C;
+}
+.nav-sidebar > li > a {
+    color: #AEB1C1;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.nav-sidebar > li > a:hover {
+    color: #AEB1C1;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: #33353D;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    background-color: #33353D;
+    color: #00aac6;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+    padding: 20px;
+}
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+.main .page-header {
+    margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+.placeholder h3{
+    font-family:  Calibri, Helvetica, Arial, sans-serif;
+    margin-top: 0;
+    font-size: 30px;
+}
+.placeholders {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.placeholders h4 {
+    margin-bottom: 0;
+}
+.placeholder {
+    margin-bottom: 20px;
+}
+.placeholder img {
+    display: inline-block;
+    border-radius: 50%;
+}
+#recharge_form .recharge_bank label{
+    margin: 10px 10px 10px 0;
+    width: 150px;
+}
+#recharge_form  a.label{
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.member_info{
+    margin-top: 40px;
+}
+.member_info p{
+    padding: 7px 0;
+    border-bottom: 1px dashed #eee;
+}
+.member_info p a{
+    color: #333;
+}
+.member_info p a:hover{
+    text-decoration: none;
+    color: #00aac6;
+}
+.info_badge{
+    margin-right: 5px;
+    background: #00aac6
+}
+.safe_table.table > tbody > tr > td{
+    vertical-align: middle;
+    padding: 15px 20px;
+}
+.red_wrap{
+    margin-top: 30px;
+}
+.red_wrap p{
+    font-size: 12px;
+}
+.red_wrap button{
+    font-size: 50px;
+    font-weight: bold;
+}
+.red_wrap button small{
+    font-size: 16px;
+}
+.transfer_rules p{
+    font-size: 12px;
+}
+.transfer_table.table > tbody >tr >td{
+    vertical-align: middle;
+}

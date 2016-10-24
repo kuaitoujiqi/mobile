@@ -1,0 +1,111 @@
+html {
+	margin: 0px; padding: 0px; overflow: hidden; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+	margin: 0px; padding: 0px; overflow: hidden; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#superContainer {
+	height: 100%; position: relative; -ms-touch-action: none; touch-action: none;
+}
+.fp-section {
+	position: relative; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.fp-slide {
+	float: left;
+}
+.fp-slide {
+	height: 100%; display: block;
+}
+.fp-slidesContainer {
+	height: 100%; display: block;
+}
+.fp-slides {
+	transition:0.3s ease-out; height: 100%; overflow: hidden; position: relative; z-index: 1; -webkit-transition: all 0.3s ease-out;
+}
+.fp-section.fp-table {
+	width: 100%; display: table;
+}
+.fp-slide.fp-table {
+	width: 100%; display: table;
+}
+.fp-tableCell {
+	width: 100%; height: 100%; vertical-align: middle; display: table-cell;
+}
+.fp-slidesContainer {
+	float: left; position: relative;
+}
+.fp-controlArrow {
+	border-style: solid; top: 50%; width: 0px; height: 0px; margin-top: -38px; position: absolute; z-index: 4; cursor: pointer;
+}
+.fp-controlArrow.fp-prev {
+	border-width: 38.5px 34px 38.5px 0px; border-color: transparent rgb(255, 255, 255) transparent transparent; left: 15px; width: 0px;
+}
+.fp-controlArrow.fp-next {
+	border-width: 38.5px 0px 38.5px 34px; border-color: transparent transparent transparent rgb(255, 255, 255); right: 15px;
+}
+.fp-scrollable {
+	overflow: scroll;
+}
+.fp-easing {
+	transition:0.7s ease-out; -webkit-transition: all 0.7s ease-out;
+}
+#fp-nav {
+	top: 50%; margin-top: -32px; position: fixed; z-index: 100; opacity: 1;
+}
+.right#fp-nav {
+	right: 17px;
+}
+.left#fp-nav {
+	left: 17px;
+}
+.fp-slidesNav {
+	left: 50%; position: absolute; z-index: 4; opacity: 1;
+}
+.fp-slidesNav.bottom {
+	bottom: 17px;
+}
+.fp-slidesNav.top {
+	top: 17px;
+}
+#fp-nav ul {
+	margin: 0px; padding: 0px;
+}
+.fp-slidesNav ul {
+	margin: 0px; padding: 0px;
+}
+#fp-nav li {
+	margin: 7px; width: 14px; height: 13px; display: block; position: relative;
+}
+.fp-slidesNav li {
+	margin: 7px; width: 14px; height: 13px; display: block; position: relative;
+}
+.fp-slidesNav li {
+	display: inline-block;
+}
+#fp-nav li a {
+	width: 100%; height: 100%; text-decoration: none; display: block; position: relative; z-index: 1; cursor: pointer;
+}
+.fp-slidesNav li a {
+	width: 100%; height: 100%; text-decoration: none; display: block; position: relative; z-index: 1; cursor: pointer;
+}
+#fp-nav li .active span {
+	background: rgb(51, 51, 51);
+}
+.fp-slidesNav .active span {
+	background: rgb(51, 51, 51);
+}
+#fp-nav span {
+	background: rgba(0, 0, 0, 0); border-radius: 50%; border: 1px solid rgb(0, 0, 0); border-image: none; left: 2px; top: 2px; width: 8px; height: 8px; position: absolute; z-index: 1;
+}
+.fp-slidesNav span {
+	background: rgba(0, 0, 0, 0); border-radius: 50%; border: 1px solid rgb(0, 0, 0); border-image: none; left: 2px; top: 2px; width: 8px; height: 8px; position: absolute; z-index: 1;
+}
+.fp-tooltip {
+	top: -2px; color: rgb(255, 255, 255); font-family: arial, helvetica, sans-serif; font-size: 14px; white-space: nowrap; position: absolute; max-width: 220px;
+}
+.fp-tooltip.right {
+	right: 20px;
+}
+.fp-tooltip.left {
+	left: 20px;
+}
